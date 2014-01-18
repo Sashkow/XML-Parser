@@ -9,9 +9,9 @@ import static org.junit.Assert.*;
 
 public class MilitaryPlanesTest {
 
-    String xmlPath = "./src/MilitaryPlanes/militaryPlanes.xml";
-    String xsdPath = "./src/MilitaryPlanes/militaryPlanes.xsd";
-    String invalidXSDPath = "./src/MilitaryPlanes/invalidMilitaryPlanes.xsd";
+    String xmlPath = "./src/xml/militaryPlanes.xml";
+    String xsdPath = "./src/xml/militaryPlanes.xsd";
+    String invalidXSDPath = "./src/xml/invalidMilitaryPlanes.xml";
 
     @Test
     public void testValidateXMLSuccess() throws Exception {
@@ -22,7 +22,7 @@ public class MilitaryPlanesTest {
 
     @Test
     public void testValidateXMLFail() throws Exception {
-        boolean result = MilitaryPlanes.validateXML(invalidXSDPath, xmlPath);
+        boolean result = MilitaryPlanes.validateXML(xsdPath, invalidXSDPath);
 
         assertFalse(result);
     }
@@ -69,6 +69,6 @@ public class MilitaryPlanesTest {
         List<Plane> planes = new ArrayList<>();
         planes.add(plane);
 
-        MilitaryPlanes.toXML(planes, "./src/MilitaryPlanes/toMilitaryPlanes.xml");
+        MilitaryPlanes.toXML(planes, "./src/xml/toMilitaryPlanes.xml");
     }
 }

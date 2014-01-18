@@ -1,0 +1,72 @@
+<military_planes>
+    <plane id="101">
+        <model>F-22 Raptor</model>
+        <origin>USA</origin>
+        <chars>
+            <type>Fighter</type>
+            <crew>1</crew>
+        </chars>
+        <parameters>
+            <length>Error</length>
+            <wingspan>13.56</wingspan>
+            <weight>19700</weight>
+        </parameters>
+        <price>146.2</price>
+    </plane>
+    <plane id="102">
+        <model>PAK FA</model>
+        <origin>Russia</origin>
+        <chars>
+            <type>Fighter</type>
+            <crew>1</crew>
+        </chars>
+        <parameters>
+            <length>19.4</length>
+            <wingspan>14</wingspan>
+            <weight>18500</weight>
+        </parameters>
+        <price>100</price>
+    </plane>
+    <plane id="103">
+        <model>B-2</model>
+        <origin>USA</origin>
+        <chars>
+            <type>Bomber</type>
+            <crew>2</crew>
+        </chars>
+        <parameters>
+            <length>20.9</length>
+            <wingspan>52.12</wingspan>
+            <weight>71700</weight>
+        </parameters>
+        <price>737</price>
+    </plane>
+    <plane id="104">
+        <model>A-10 Thunderbolt II</model>
+        <origin>USA</origin>
+        <chars>
+            <type>Attack</type>
+            <crew>1</crew>
+        </chars>
+        <parameters>
+            <length>16.26</length>
+            <wingspan>17.53</wingspan>
+            <weight>9176</weight>
+        </parameters>
+        <price>11.8</price>
+    </plane>
+    <plane id="105">
+        <model>BAE Harrier II</model>
+        <origin>United Kingdom</origin>
+        <chars>
+            <type>Attack</type>
+            <crew>1</crew>
+        </chars>
+        <parameters>
+            <length>14.12</length>
+            <wingspan>9.25</wingspan>
+            <weight>5700</weight>
+        </parameters>
+        <price>9.6</price>
+    </plane>
+</military_planes>
